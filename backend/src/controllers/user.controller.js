@@ -3,7 +3,8 @@ import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import getDataUri from "../utils/dataUri.js";
 import cloudinary from "../utils/cloudinary.js";
-
+import dotenv from 'dotenv'
+dotenv.config();
 export const registerUser = async (req, res) => {
   try {
     const { fullname, username, email, password, phoneNumber, role } = req.body;
