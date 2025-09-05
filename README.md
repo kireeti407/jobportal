@@ -84,9 +84,7 @@ JobPortal is a comprehensive web application designed to connect blue-collar wor
 - `backend/` - Express.js API, MongoDB models, controllers, routes, and socket server
 - `frontend/` - React app, components, hooks, Redux store, and UI assets
 
-## License
 
-This project is licensed under the ISC License.
 
 ---
 **Made with ❤️ for connecting talent and opportunity.**
